@@ -2,234 +2,71 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aurum Luxe | Exquisite Real Gold Jewellery</title>
-    <style>
-        /* --- CSS STYLES --- */
-        :root {
-            --gold: #D4AF37;
-            --dark: #1a1a1a;
-            --light: #ffffff;
-            --cream: #fbf8f1;
-            --text-gray: #555;
-            --font-main: 'Playfair Display', serif; /* Suggestion: Import from Google Fonts */
-        }
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
-
-        body {
-            background-color: var(--cream);
-            color: var(--dark);
-            line-height: 1.6;
-        }
-
-        a { text-decoration: none; color: inherit; transition: 0.3s; }
-        ul { list-style: none; }
-
-        /* Header */
-        header {
-            background-color: var(--light);
-            padding: 20px 10%;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
-        }
-
-        .logo {
-            font-size: 28px;
-            font-weight: bold;
-            color: var(--dark);
-            letter-spacing: 2px;
-        }
-
-        .logo span { color: var(--gold); }
-
-        .nav-links { display: flex; gap: 30px; }
-        .nav-links a:hover { color: var(--gold); }
-
-        .icons { display: flex; gap: 15px; }
-
-        /* Hero Section */
-        .hero {
-            height: 80vh;
-            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images.unsplash.com') center/cover;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            color: var(--light);
-            padding: 0 20px;
-        }
-
-        .hero h1 {
-            font-size: 50px;
-            margin-bottom: 20px;
-            letter-spacing: 3px;
-        }
-
-        .hero p { font-size: 18px; margin-bottom: 30px; max-width: 600px; }
-
-        .btn {
-            padding: 12px 30px;
-            background-color: var(--gold);
-            color: var(--light);
-            border-radius: 5px;
-            font-weight: bold;
-            letter-spacing: 1px;
-        }
-
-        .btn:hover { background-color: #b3922e; }
-
-        /* Collections */
-        .collections { padding: 80px 10%; text-align: center; }
-        .section-title { font-size: 36px; margin-bottom: 50px; color: var(--dark); }
-
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 30px;
-        }
-
-        .col-item {
-            position: relative;
-            overflow: hidden;
-            height: 400px;
-        }
-
-        .col-item img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            transition: 0.5s;
-        }
-
-        .col-item:hover img { transform: scale(1.1); }
-
-        .col-info {
-            position: absolute;
-            bottom: 20px;
-            left: 20px;
-            background: rgba(255,255,255,0.8);
-            padding: 15px 25px;
-            border-radius: 5px;
-        }
-
-        /* Products */
-        .products { padding: 50px 10%; background-color: var(--light); }
-        .prod-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
-        }
-
-        .prod-card {
-            border: 1px solid #eee;
-            padding: 15px;
-            text-align: center;
-            transition: 0.3s;
-        }
-
-        .prod-card:hover { box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
-        .prod-card img { width: 100%; height: 250px; object-fit: contain; }
-        .prod-name { margin: 15px 0 10px; font-weight: 600; }
-        .prod-price { color: var(--gold); font-weight: bold; }
-
-        /* Footer */
-        footer {
-            background-color: var(--dark);
-            color: var(--light);
-            padding: 50px 10%;
-            text-align: center;
-            margin-top: 50px;
-        }
-
-        @media (max-width: 768px) {
-            .nav-links { display: none; }
-            .hero h1 { font-size: 32px; }
-        }
-    </style>
+    <title>Dream Homes Real Estate</title>
 </head>
 <body>
 
-    <!-- Header Section -->
+    <!-- Header -->
     <header>
-        <div class="logo">AURUM<span>LUXE</span></div>
-        <ul class="nav-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Necklaces</a></li>
-            <li><a href="#">Rings</a></li>
-            <li><a href="#">Earrings</a></li>
-            <li><a href="#">About</a></li>
-        </ul>
-        <div class="icons">
-            <span>🔍</span>
-            <span>🛒</span>
-        </div>
+        <h1>Dream Homes Real Estate</h1>
+        <p>Your trusted partner in buying & selling property</p>
+        <hr>
     </header>
 
+    <!-- Navigation -->
+    <nav>
+        <a href="#">Home</a> |
+        <a href="#">Properties</a> |
+        <a href="#">About Us</a> |
+        <a href="#">Contact</a>
+        <hr>
+    </nav>
+
     <!-- Hero Section -->
-    <section class="hero">
-        <h1>Pure Gold, Timeless Elegance</h1>
-        <p>Discover our handcrafted collection of 22K and 18K gold jewellery designed for special moments.</p>
-        <a href="#" class="btn">Shop New Arrivals</a>
+    <section>
+        <h2>Find Your Perfect Home</h2>
+        <p>Explore residential and commercial properties at the best prices.</p>
     </section>
 
-    <!-- Collections Section -->
-    <section class="collections">
-        <h2 class="section-title">Featured Collections</h2>
-        <div class="grid">
-            <div class="col-item">
-                <img src="images.unsplash.com" alt="Gold Rings">
-                <div class="col-info"><h3>Signature Rings</h3></div>
-            </div>
-            <div class="col-item">
-                <img src="images.unsplash.com" alt="Gold Necklaces">
-                <div class="col-info"><h3>Bridal Sets</h3></div>
-            </div>
-            <div class="col-item">
-                <img src="images.unsplash.com" alt="Gold Earrings">
-                <div class="col-info"><h3>Daily Wear</h3></div>
-            </div>
-        </div>
+    <!-- Property Listings -->
+    <section>
+        <h2>Featured Properties</h2>
+
+        <h3>🏠 3 BHK Apartment</h3>
+        <p>Location: Mumbai</p>
+        <p>Price: ₹1.2 Cr</p>
+
+        <h3>🏡 Independent Villa</h3>
+        <p>Location: Bangalore</p>
+        <p>Price: ₹2.8 Cr</p>
+
+        <h3>🏢 Commercial Office Space</h3>
+        <p>Location: Pune</p>
+        <p>Price: ₹95 Lakh</p>
     </section>
 
-    <!-- Best Sellers -->
-    <section class="products">
-        <h2 class="section-title">Best Sellers</h2>
-        <div class="prod-grid">
-            <div class="prod-card">
-                <img src="images.unsplash.com" alt="Gold Chain">
-                <p class="prod-name">22K Gold Filigree Chain</p>
-                <p class="prod-price">$1,250</p>
-            </div>
-            <div class="prod-card">
-                <img src="images.unsplash.com" alt="Gold Ring">
-                <p class="prod-name">Classic Gold Band</p>
-                <p class="prod-price">$850</p>
-            </div>
-            <div class="prod-card">
-                <img src="images.unsplash.com" alt="Gold Earrings">
-                <p class="prod-name">Temple Design Earrings</p>
-                <p class="prod-price">$550</p>
-            </div>
-        </div>
+    <!-- About Section -->
+    <section>
+        <h2>About Us</h2>
+        <p>
+            Dream Homes Real Estate has over 10 years of experience in helping
+            customers find the right property with transparency and trust.
+        </p>
     </section>
+
+    <!-- Contact Section -->
+    <section>
+        <h2>Contact Us</h2>
+        <p>Email: contact@dreamhomes.com</p>
+        <p>Phone: +91 98765 43210</p>
+    </section>
+
+    <hr>
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2025 Aurum Luxe Jewellery. All Rights Reserved.</p>
+        <p>© 2025 Dream Homes Real Estate. All rights reserved.</p>
     </footer>
 
 </body>
 </html>
-
